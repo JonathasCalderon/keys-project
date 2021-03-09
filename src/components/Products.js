@@ -20,10 +20,13 @@ const winPro = {
 
 const Products = () => {
     return (
-        <div className="container mx-auto flex flex-wrap">
-            <ProductCard product={winPro}/>
-            <ProductCard product={winHome}/>
-            <ProductCard product={office}/>
+        <div className="container mx-auto">
+            <h1 className="text-5xl font-medium my-5 text-gray-700">Productos</h1>
+            <div className="container mx-auto flex flex-wrap">
+                <ProductCard product={winPro}/>
+                <ProductCard product={winHome}/>
+                <ProductCard product={office}/>
+            </div>
         </div>
     )
 }

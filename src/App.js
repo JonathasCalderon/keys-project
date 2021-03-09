@@ -1,10 +1,11 @@
 import { Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Products from './components/Products';
 
 function App() {
   return (
-    <div className="bg-indigo-100 h-screen">
-      <h1>Navbar</h1>
+    <div className="">
+      <Navbar />
       <Switch>
         <Route exact path="/" >
           <Products />
